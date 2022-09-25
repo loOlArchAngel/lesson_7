@@ -1,0 +1,249 @@
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Regular.woff2") format('woff2'), url("../fonts/Lato-Regular.woff") format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Bold.woff2") format('woff2'), url("../fonts/Lato-Bold.woff") format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Black.woff2") format('woff2'), url("../fonts/Lato-Black.woff") format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+h1{
+   font-family: Lato;
+   font-weight: 900;
+   font-size: 46px;
+   color: #1E212C;
+}
+.header{
+   margin-top: 12px;
+   margin-bottom: 92px;
+}
+[class*="__container"]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+.page__text-under-image,
+.quote{
+   font-family: Lato;
+   font-weight: 700;
+   font-size: 20px;
+   color: #1E212C;
+}
+.page__after-text-under-image,
+.scroll,
+.text__after-scroll,
+.text__after-quote{
+   font-family: Lato;
+   font-weight: 400;
+   font-size: 16px;
+   color: #424551;
+}
+.page__image{
+   margin-bottom: 60px;
+   
+}
+.page__text-under-image{
+   margin-bottom: 24px;
+   line-height: 150%;
+}
+.page__after-text-under-image{
+   margin-bottom: 48px;
+   line-height: 160%;
+}
+.first-text{
+   padding-bottom: 40px;
+}
+.quote{
+   margin-bottom: 48px;
+   padding-left: 58px;
+   line-height: 150%;
+}
+.text__after-quote{
+   margin-bottom: 24px;
+   line-height: 25.6px;
+}
+.scroll{
+   margin-bottom: 24px;
+}
+.scroll__item{
+   margin-bottom: 4px;
+   padding-left: 32px;
+}
+.text__after-scroll{
+   line-height: 25.6px;
+   margin-bottom: 100px;
+}
+
+h2{
+   font-family: Lato;
+   font-weight: 700;
+   font-size: 30px;
+   max-width: 810px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+.lessonseven{
+   font-family: Lato;
+   font-weight: 400;
+   font-size: 16px;
+   background-image: url("../img/fon.jpg");
+
+}
+span{
+   font-family: Lato;
+   font-weight: 700;
+   font-size: 16px;
+}
+.firstblock{
+   padding-left: 50px;
+}
+.ukrainian-ground-forces{
+   background-image:url("../img/Ukrainian_Ground_Forces.jpg"), linear-gradient(0deg, rgba(249, 255, 0, 1) 0%, rgba(45, 161, 253, 1) 100%);
+   background-repeat: no-repeat;
+   display: inline-block;
+   border-radius: 15px;
+   opacity: 0.5;
+   margin: 20px;
+   overflow: auto;
+   max-width: 300px;
+   max-height: 250px;
+   padding-top: 115px;
+   padding-left: 10px;
+}
+.ukrainian-ground-forces:hover{
+   opacity: 1;
+   box-shadow: 10px 10px 10px grey;
+}
+
+.ukrainian-air-force{
+   background-image: url("../img/Ukrainian_Air_Force.jpg"), linear-gradient(0deg, rgba(249, 255, 0, 1) 0%, rgba(45, 161, 253, 1) 100%);
+   background-repeat: no-repeat;
+   display: inline-block;
+   border-radius: 15px;
+   opacity: 0.5;
+   margin: 20px;
+   overflow: auto;
+   max-width: 300px;
+   max-height: 250px;
+   margin-right: 50px;
+   padding-top: 115px;
+   padding-left: 10px;
+}
+.ukrainian-air-force:hover{
+   opacity: 1;
+   box-shadow: 10px 10px 10px grey;
+}
+.ukrainian-navy{
+   background-image: url("../img/Ukrainian_Navy.jpg"), linear-gradient(0deg, rgba(249, 255, 0, 1) 0%, rgba(45, 161, 253, 1) 100%);
+   background-repeat: no-repeat;
+   display: inline-block;
+   border-radius: 15px;
+   opacity: 0.5;
+   margin: 20px;
+   overflow: auto;
+   max-width: 300px;
+   max-height: 300px;
+   margin-right: 50px;
+   padding-top: 115px;
+   padding-left: 10px;
+}
+.ukrainian-navy:hover{
+   opacity: 1;
+   box-shadow: 10px 10px 10px grey;
+}
+
+.ukrainian-air-assault-troops {
+   background-image: url("../img/Ukrainian_Air_assault_troops.jpg"), linear-gradient(0deg, rgba(249, 255, 0, 1) 0%, rgba(45, 161, 253, 1) 100%);
+   background-repeat: no-repeat;
+   display: inline-block;
+   border-radius: 15px;
+   opacity: 0.5;
+   margin: 20px;
+   overflow: auto;
+   max-width: 300px;
+   max-height: 300px;
+   margin-right: 50px;
+   padding-top: 110px;
+   padding-left: 10px;
+}
+.ukrainian-air-assault-troops:hover{
+   opacity: 1;
+   box-shadow: 10px 10px 10px grey;
+}
+.ukrainian-special-operations-forces {
+   background-image: url("../img/Ukrainian_Special_Operations_Forces.jpg"), linear-gradient(0deg, rgba(249, 255, 0, 1) 0%, rgba(45, 161, 253, 1) 100%);
+   background-repeat: no-repeat;
+   display: inline-block;
+   border-radius: 15px;
+   opacity: 0.5;
+   margin: 20px;
+   overflow: auto;
+   max-width: 300px;
+   max-height: 300px;
+   margin-right: 50px;
+   padding-top: 110px;
+   padding-left: 10px;
+   margin-bottom: 50px;
+}
+.ukrainian-special-operations-forces:hover{
+   opacity: 1;
+   box-shadow: 10px 10px 10px grey;
+}
+
+
+
+.secondblock {
+   height: 300px;
+   max-width: 810px;
+   margin: 0 auto;
+   font-size: 14px;
+   background: url("../img/gerb.jpg"), linear-gradient(0deg, rgba(249, 255, 0, 1) 0%, rgba(45, 161, 253, 1) 100%);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-bottom: 100px;
+   border-radius: 50px;
+   border: 3px dashed black;
+   opacity: 0.5;
+}
+.secondblock:hover{
+   opacity: 1;
+   box-shadow: 10px 10px 10px grey;
+}
+.secondblock-text{
+color: black;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+text-align: left;
+padding: 20px; 
+}
+
+
+.firstbutton{
+   display: inline-block;
+   background-color: rgb(252, 150, 77);
+   padding: 15px;
+   margin-bottom: 50px;
+   margin-left: 50px;
+   border-radius: 20px;
+   box-shadow: 0 5px 0 #424551;
+   transition: all 0.3s ease 0s;
+}
+.firstbutton:hover{
+   margin-top: 3px;
+   box-shadow: 0 2px 0 #424551;
+}
